@@ -26,9 +26,9 @@ pip install livekit-plugins-groq livekit-plugins-cartesia
 
 ### 3. Configure API Keys
 Fill in your `.env` file with the following:
-- `LIVEKIT_URL`, `LIVEKIT_API_KEY`, `LIVEKIT_API_SECRET`
-- `GROQ_API_KEY` (Brain)
-- `DEEPGRAM_API_KEY` (Ears/Voice)
+- `LIVEKIT_URL`, `LIVEKIT_API_KEY`, `LIVEKIT_API_SECRET` - Get from [LiveKit Console](https://cloud.livekit.io/)
+- `GROQ_API_KEY` (Brain) - Get from [Groq Console](https://console.groq.com/keys)
+- `DEEPGRAM_API_KEY` (Ears/Voice) - Get from [Deepgram Console](https://console.deepgram.com/)
 
 ### 4. Run the Agent
 ```powershell
